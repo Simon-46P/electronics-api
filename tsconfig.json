@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es6", // or your target version
+    "module": "commonjs", // or other module format
+    "outDir": "./dist", // output directory for compiled files
+    "strict": true, // enable all strict type-checking options
+    "esModuleInterop": true, // emit additional JavaScript to support CommonJS interop
+    "skipLibCheck": true, // skip type checking of all declaration files
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node", // use Node.js style module resolution
+    "declaration": true, // generate corresponding .d.ts files
+    "sourceMap": true // generate source maps for debugging
+  },
+  "include": ["api/**/*.ts"], // or your TypeScript source directory
+  "exclude": ["node_modules"]
+}
