@@ -130,7 +130,7 @@ app.put("/product/:id", (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Server is running at http://localhost:${port}`);
+  console.log(`Server listening to port: ${port}`);
 });
 
 module.exports = app;
