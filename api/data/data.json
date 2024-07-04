@@ -1,0 +1,802 @@
+[
+  {
+    "id": "2",
+    "title": "Audiophile Pro-500 Headphones",
+    "price": "199",
+    "popularity": "95",
+    "stockLevel": "100",
+    "categoryId": "4"
+  },
+  {
+    "id": "4",
+    "title": "UltraFlex Gaming Pad",
+    "price": "29",
+    "popularity": "78",
+    "stockLevel": "180",
+    "categoryId": "3"
+  },
+  {
+    "id": "5",
+    "title": "Audiophile Pro-500 Headphones",
+    "price": "199",
+    "popularity": "95",
+    "stockLevel": "100",
+    "categoryId": "4"
+  },
+  {
+    "id": "6",
+    "title": "FlexGrip Controller",
+    "price": "49",
+    "popularity": "72",
+    "stockLevel": "200",
+    "categoryId": "3"
+  },
+  {
+    "id": "7",
+    "title": "CinemaPro OLED 65",
+    "price": "1999",
+    "popularity": "90",
+    "stockLevel": "15",
+    "categoryId": "5"
+  },
+  {
+    "id": "8",
+    "title": "RapidFire Gaming Keyboard",
+    "price": "99",
+    "popularity": "90",
+    "stockLevel": "100",
+    "categoryId": "3"
+  },
+  {
+    "id": "9",
+    "title": "GyroFlex Activity Ring",
+    "price": "59",
+    "popularity": "80",
+    "stockLevel": "150",
+    "categoryId": "1"
+  },
+  {
+    "id": "10",
+    "title": "TechPro X1 Smartphone",
+    "price": "799",
+    "popularity": "85",
+    "stockLevel": "50",
+    "categoryId": "2"
+  },
+  {
+    "id": "11",
+    "title": "DynamicWave Pro Earphones",
+    "price": "49",
+    "popularity": "88",
+    "stockLevel": "180",
+    "categoryId": "6"
+  },
+  {
+    "id": "12",
+    "title": "PrimeView 65 QLED",
+    "price": "1599",
+    "popularity": "88",
+    "stockLevel": "20",
+    "categoryId": "5"
+  },
+  {
+    "id": "13",
+    "title": "SwiftSync Thunderbolt Dock",
+    "price": "199",
+    "popularity": "80",
+    "stockLevel": "80",
+    "categoryId": "7"
+  },
+  {
+    "id": "14",
+    "title": "SmartEdge 55",
+    "price": "899",
+    "popularity": "78",
+    "stockLevel": "35",
+    "categoryId": "5"
+  },
+  {
+    "id": "15",
+    "title": "UltraVision X",
+    "price": "1599",
+    "popularity": "72",
+    "stockLevel": "40",
+    "categoryId": "8"
+  },
+  {
+    "id": "16",
+    "title": "SmartFlex Wireless Charger",
+    "price": "39",
+    "popularity": "88",
+    "stockLevel": "200",
+    "categoryId": "7"
+  },
+  {
+    "id": "17",
+    "title": "ZenBeats Over-Ear",
+    "price": "149",
+    "popularity": "80",
+    "stockLevel": "120",
+    "categoryId": "4"
+  },
+  {
+    "id": "18",
+    "title": "EcoLight LED Strip",
+    "price": "49",
+    "popularity": "78",
+    "stockLevel": "220",
+    "categoryId": "7"
+  },
+  {
+    "id": "19",
+    "title": "SmartHome Hub V2",
+    "price": "299",
+    "popularity": "85",
+    "stockLevel": "80",
+    "categoryId": "9"
+  },
+  {
+    "id": "20",
+    "title": "EcoTunes Sound System",
+    "price": "179",
+    "popularity": "85",
+    "stockLevel": "90",
+    "categoryId": "6"
+  },
+  {
+    "id": "21",
+    "title": "EcoTunes 5G",
+    "price": "69",
+    "popularity": "82",
+    "stockLevel": "220",
+    "categoryId": "4"
+  },
+  {
+    "id": "22",
+    "title": "HealthMax Pro ECG Monitor",
+    "price": "199",
+    "popularity": "75",
+    "stockLevel": "60",
+    "categoryId": "1"
+  },
+  {
+    "id": "23",
+    "title": "SoundFlex Soundbar",
+    "price": "129",
+    "popularity": "78",
+    "stockLevel": "160",
+    "categoryId": "6"
+  },
+  {
+    "id": "24",
+    "title": "GigaFlex XR Viewer",
+    "price": "199",
+    "popularity": "65",
+    "stockLevel": "35",
+    "categoryId": "10"
+  },
+  {
+    "id": "25",
+    "title": "EcoHome Smart Lights",
+    "price": "59",
+    "popularity": "82",
+    "stockLevel": "70",
+    "categoryId": "9"
+  },
+  {
+    "id": "26",
+    "title": "EcoSight XR Goggles",
+    "price": "349",
+    "popularity": "80",
+    "stockLevel": "25",
+    "categoryId": "10"
+  },
+  {
+    "id": "27",
+    "title": "EcoPlus 5G Ultra",
+    "price": "699",
+    "popularity": "90",
+    "stockLevel": "60",
+    "categoryId": "2"
+  },
+  {
+    "id": "28",
+    "title": "UltraCharge Power Adapter",
+    "price": "79",
+    "popularity": "90",
+    "stockLevel": "150",
+    "categoryId": "7"
+  },
+  {
+    "id": "29",
+    "title": "RapidSync USB-C Cable",
+    "price": "19",
+    "popularity": "90",
+    "stockLevel": "300",
+    "categoryId": "7"
+  },
+  {
+    "id": "30",
+    "title": "ZenHome Smart Lights",
+    "price": "59",
+    "popularity": "82",
+    "stockLevel": "70",
+    "categoryId": "9"
+  },
+  {
+    "id": "31",
+    "title": "EchoSync Smart Mirror",
+    "price": "399",
+    "popularity": "70",
+    "stockLevel": "10",
+    "categoryId": "9"
+  },
+  {
+    "id": "32",
+    "title": "UltraView VR Headset",
+    "price": "179",
+    "popularity": "75",
+    "stockLevel": "35",
+    "categoryId": "10"
+  },
+  {
+    "id": "33",
+    "title": "HealthWave Pro Bracelet",
+    "price": "179",
+    "popularity": "82",
+    "stockLevel": "90",
+    "categoryId": "1"
+  },
+  {
+    "id": "34",
+    "title": "FlexTone Wireless",
+    "price": "119",
+    "popularity": "78",
+    "stockLevel": "160",
+    "categoryId": "4"
+  },
+  {
+    "id": "35",
+    "title": "ZenAir 14 Ultra",
+    "price": "999",
+    "popularity": "75",
+    "stockLevel": "50",
+    "categoryId": "8"
+  },
+  {
+    "id": "36",
+    "title": "GigaGuard Security Camera",
+    "price": "79",
+    "popularity": "75",
+    "stockLevel": "90",
+    "categoryId": "9"
+  },
+  {
+    "id": "37",
+    "title": "SwiftFlex 13",
+    "price": "899",
+    "popularity": "78",
+    "stockLevel": "55",
+    "categoryId": "8"
+  },
+  {
+    "id": "38",
+    "title": "EchoWave Gaming Headset",
+    "price": "79",
+    "popularity": "88",
+    "stockLevel": "120",
+    "categoryId": "3"
+  },
+  {
+    "id": "39",
+    "title": "EcoWave Smart Plug",
+    "price": "29",
+    "popularity": "88",
+    "stockLevel": "120",
+    "categoryId": "9"
+  },
+  {
+    "id": "40",
+    "title": "MegaBass Studio Series",
+    "price": "249",
+    "popularity": "70",
+    "stockLevel": "80",
+    "categoryId": "4"
+  },
+  {
+    "id": "41",
+    "title": "AuraSense Smart Lock",
+    "price": "199",
+    "popularity": "80",
+    "stockLevel": "50",
+    "categoryId": "9"
+  },
+  {
+    "id": "42",
+    "title": "GamerZone RGB Mechanical Keyboard",
+    "price": "149",
+    "popularity": "70",
+    "stockLevel": "50",
+    "categoryId": "7"
+  },
+  {
+    "id": "43",
+    "title": "FlexTone Studio Monitors",
+    "price": "199",
+    "popularity": "90",
+    "stockLevel": "80",
+    "categoryId": "6"
+  },
+  {
+    "id": "44",
+    "title": "PrimeSync Smart Switch",
+    "price": "39",
+    "popularity": "85",
+    "stockLevel": "80",
+    "categoryId": "9"
+  },
+  {
+    "id": "45",
+    "title": "ZenSound White Noise Machine",
+    "price": "49",
+    "popularity": "85",
+    "stockLevel": "200",
+    "categoryId": "6"
+  },
+  {
+    "id": "46",
+    "title": "SoundBeat Fitness Earphones",
+    "price": "49",
+    "popularity": "88",
+    "stockLevel": "140",
+    "categoryId": "1"
+  },
+  {
+    "id": "47",
+    "title": "GigaHub USB Hub",
+    "price": "29",
+    "popularity": "75",
+    "stockLevel": "250",
+    "categoryId": "7"
+  },
+  {
+    "id": "48",
+    "title": "ProGamer XL Gaming Chair",
+    "price": "399",
+    "popularity": "70",
+    "stockLevel": "50",
+    "categoryId": "3"
+  },
+  {
+    "id": "49",
+    "title": "DynamicView VR Kit",
+    "price": "249",
+    "popularity": "85",
+    "stockLevel": "40",
+    "categoryId": "10"
+  },
+  {
+    "id": "50",
+    "title": "GizmoFlex Z2 Pro",
+    "price": "899",
+    "popularity": "75",
+    "stockLevel": "40",
+    "categoryId": "2"
+  },
+  {
+    "id": "51",
+    "title": "Infinity Max X",
+    "price": "999",
+    "popularity": "80",
+    "stockLevel": "30",
+    "categoryId": "2"
+  },
+  {
+    "id": "52",
+    "title": "NexGen Slim 8",
+    "price": "599",
+    "popularity": "85",
+    "stockLevel": "70",
+    "categoryId": "2"
+  },
+  {
+    "id": "53",
+    "title": "DynamicPulse 7",
+    "price": "499",
+    "popularity": "80",
+    "stockLevel": "65",
+    "categoryId": "2"
+  },
+  {
+    "id": "54",
+    "title": "PrimeX 10",
+    "price": "1199",
+    "popularity": "75",
+    "stockLevel": "45",
+    "categoryId": "2"
+  },
+  {
+    "id": "55",
+    "title": "MaxLink X3",
+    "price": "449",
+    "popularity": "85",
+    "stockLevel": "55",
+    "categoryId": "2"
+  },
+  {
+    "id": "56",
+    "title": "SmartWave 6",
+    "price": "749",
+    "popularity": "88",
+    "stockLevel": "60",
+    "categoryId": "2"
+  },
+  {
+    "id": "57",
+    "title": "SwiftBook Pro 15 Laptop",
+    "price": "1299",
+    "popularity": "85",
+    "stockLevel": "30",
+    "categoryId": "8"
+  },
+  {
+    "id": "58",
+    "title": "MaxSpeed Studio Pro",
+    "price": "1399",
+    "popularity": "90",
+    "stockLevel": "25",
+    "categoryId": "8"
+  },
+  {
+    "id": "59",
+    "title": "UltraBook X2 Convertible",
+    "price": "1099",
+    "popularity": "70",
+    "stockLevel": "40",
+    "categoryId": "8"
+  },
+  {
+    "id": "60",
+    "title": "EcoTech X1 Gaming Laptop",
+    "price": "1499",
+    "popularity": "80",
+    "stockLevel": "20",
+    "categoryId": "8"
+  },
+  {
+    "id": "61",
+    "title": "ProFusion 17",
+    "price": "1699",
+    "popularity": "88",
+    "stockLevel": "35",
+    "categoryId": "8"
+  },
+  {
+    "id": "62",
+    "title": "GigaBook 15",
+    "price": "1199",
+    "popularity": "82",
+    "stockLevel": "45",
+    "categoryId": "8"
+  },
+  {
+    "id": "63",
+    "title": "ZenBook X3",
+    "price": "1099",
+    "popularity": "90",
+    "stockLevel": "30",
+    "categoryId": "8"
+  },
+  {
+    "id": "64",
+    "title": "DynamicX Sports Earbuds",
+    "price": "79",
+    "popularity": "90",
+    "stockLevel": "200",
+    "categoryId": "4"
+  },
+  {
+    "id": "65",
+    "title": "RhythmBliss True Wireless",
+    "price": "129",
+    "popularity": "85",
+    "stockLevel": "150",
+    "categoryId": "4"
+  },
+  {
+    "id": "66",
+    "title": "SoundWave Pro",
+    "price": "179",
+    "popularity": "88",
+    "stockLevel": "130",
+    "categoryId": "4"
+  },
+  {
+    "id": "67",
+    "title": "BassFusion Elite",
+    "price": "99",
+    "popularity": "75",
+    "stockLevel": "180",
+    "categoryId": "4"
+  },
+  {
+    "id": "68",
+    "title": "EchoBlast Soundbar",
+    "price": "199",
+    "popularity": "90",
+    "stockLevel": "120",
+    "categoryId": "4"
+  },
+  {
+    "id": "69",
+    "title": "UltraVision 4K Smart TV",
+    "price": "1499",
+    "popularity": "85",
+    "stockLevel": "20",
+    "categoryId": "5"
+  },
+  {
+    "id": "70",
+    "title": "EcoView 50 QLED",
+    "price": "999",
+    "popularity": "75",
+    "stockLevel": "40",
+    "categoryId": "5"
+  },
+  {
+    "id": "71",
+    "title": "QuantumX HDR 55",
+    "price": "1299",
+    "popularity": "80",
+    "stockLevel": "30",
+    "categoryId": "5"
+  },
+  {
+    "id": "72",
+    "title": "GigaVision LED 43",
+    "price": "599",
+    "popularity": "70",
+    "stockLevel": "50",
+    "categoryId": "5"
+  },
+  {
+    "id": "73",
+    "title": "FlexView Ultra HD",
+    "price": "1199",
+    "popularity": "85",
+    "stockLevel": "25",
+    "categoryId": "5"
+  },
+  {
+    "id": "74",
+    "title": "DynamicVision 60",
+    "price": "799",
+    "popularity": "72",
+    "stockLevel": "45",
+    "categoryId": "5"
+  },
+  {
+    "id": "75",
+    "title": "EcoTech 4K 50",
+    "price": "899",
+    "popularity": "75",
+    "stockLevel": "40",
+    "categoryId": "5"
+  },
+  {
+    "id": "76",
+    "title": "CyberShield Webcam Cover",
+    "price": "9",
+    "popularity": "95",
+    "stockLevel": "500",
+    "categoryId": "7"
+  },
+  {
+    "id": "77",
+    "title": "PowerCore Solar Charger",
+    "price": "129",
+    "popularity": "85",
+    "stockLevel": "100",
+    "categoryId": "7"
+  },
+  {
+    "id": "78",
+    "title": "SoundFlex Portable Speaker",
+    "price": "59",
+    "popularity": "82",
+    "stockLevel": "180",
+    "categoryId": "7"
+  },
+  {
+    "id": "79",
+    "title": "PulseFit Fitness Tracker",
+    "price": "79",
+    "popularity": "90",
+    "stockLevel": "100",
+    "categoryId": "1"
+  },
+  {
+    "id": "80",
+    "title": "EcoBand Smartwatch",
+    "price": "129",
+    "popularity": "85",
+    "stockLevel": "80",
+    "categoryId": "1"
+  },
+  {
+    "id": "81",
+    "title": "AirPulse Wireless Earbuds",
+    "price": "89",
+    "popularity": "95",
+    "stockLevel": "120",
+    "categoryId": "1"
+  },
+  {
+    "id": "82",
+    "title": "FlexFit Sports Watch",
+    "price": "149",
+    "popularity": "70",
+    "stockLevel": "110",
+    "categoryId": "1"
+  },
+  {
+    "id": "83",
+    "title": "VRX-800 Pro VR Glasses",
+    "price": "499",
+    "popularity": "80",
+    "stockLevel": "20",
+    "categoryId": "10"
+  },
+  {
+    "id": "84",
+    "title": "EcoVision VR Helmet",
+    "price": "399",
+    "popularity": "75",
+    "stockLevel": "25",
+    "categoryId": "10"
+  },
+  {
+    "id": "85",
+    "title": "VRX-500 Virtual Reality Headset",
+    "price": "299",
+    "popularity": "70",
+    "stockLevel": "30",
+    "categoryId": "10"
+  },
+  {
+    "id": "86",
+    "title": "SmartEdge AR Glasses",
+    "price": "599",
+    "popularity": "78",
+    "stockLevel": "15",
+    "categoryId": "10"
+  },
+  {
+    "id": "87",
+    "title": "FlexReality 3D Viewer",
+    "price": "149",
+    "popularity": "72",
+    "stockLevel": "45",
+    "categoryId": "10"
+  },
+  {
+    "id": "88",
+    "title": "VisionX 360 VR System",
+    "price": "899",
+    "popularity": "88",
+    "stockLevel": "10",
+    "categoryId": "10"
+  },
+  {
+    "id": "89",
+    "title": "EcoTemp Smart Thermostat",
+    "price": "149",
+    "popularity": "80",
+    "stockLevel": "60",
+    "categoryId": "9"
+  },
+  {
+    "id": "90",
+    "title": "ROBO-Clean Robot Vacuum",
+    "price": "299",
+    "popularity": "75",
+    "stockLevel": "30",
+    "categoryId": "9"
+  },
+  {
+    "id": "91",
+    "title": "TechView Doorbell Camera",
+    "price": "149",
+    "popularity": "78",
+    "stockLevel": "60",
+    "categoryId": "9"
+  },
+  {
+    "id": "92",
+    "title": "AuraGlow Gaming Desk",
+    "price": "199",
+    "popularity": "75",
+    "stockLevel": "40",
+    "categoryId": "3"
+  },
+  {
+    "id": "93",
+    "title": "GamerZone RGB Gaming Mouse",
+    "price": "59",
+    "popularity": "85",
+    "stockLevel": "150",
+    "categoryId": "3"
+  },
+  {
+    "id": "94",
+    "title": "SwiftFire Gaming Console",
+    "price": "299",
+    "popularity": "80",
+    "stockLevel": "20",
+    "categoryId": "3"
+  },
+  {
+    "id": "95",
+    "title": "EcoCharge Gaming Battery",
+    "price": "79",
+    "popularity": "85",
+    "stockLevel": "130",
+    "categoryId": "3"
+  },
+  {
+    "id": "96",
+    "title": "VibeSync Gaming Glasses",
+    "price": "149",
+    "popularity": "75",
+    "stockLevel": "90",
+    "categoryId": "3"
+  },
+  {
+    "id": "97",
+    "title": "AIHome Smart Speaker",
+    "price": "99",
+    "popularity": "75",
+    "stockLevel": "120",
+    "categoryId": "6"
+  },
+  {
+    "id": "98",
+    "title": "MusicPro Wireless Microphone",
+    "price": "79",
+    "popularity": "70",
+    "stockLevel": "100",
+    "categoryId": "6"
+  },
+  {
+    "id": "99",
+    "title": "MegaBass Bluetooth Speaker",
+    "price": "99",
+    "popularity": "80",
+    "stockLevel": "150",
+    "categoryId": "6"
+  },
+  {
+    "id": "100",
+    "title": "Audiophile Pro-500 Headphones",
+    "price": "199",
+    "popularity": "95",
+    "stockLevel": "100",
+    "categoryId": "4"
+  },
+  {
+    "id": "101",
+    "title": "VibeWave Wireless Headphones",
+    "price": "149",
+    "popularity": "75",
+    "stockLevel": "100",
+    "categoryId": "6"
+  },
+  {
+    "id": "10113",
+    "title": "New Product2",
+    "price": 199.99,
+    "popularity": 90,
+    "stockLevel": 50,
+    "categoryId": "5"
+  }
+]
