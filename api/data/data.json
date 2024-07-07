@@ -790,13 +790,5 @@
     "popularity": "75",
     "stockLevel": "100",
     "categoryId": "6"
-  },
-  {
-    "id": "10113",
-    "title": "New Product2",
-    "price": 199.99,
-    "popularity": 90,
-    "stockLevel": 50,
-    "categoryId": "5"
   }
 ]

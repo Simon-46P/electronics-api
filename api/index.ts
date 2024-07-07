@@ -93,8 +93,8 @@ app.post("/products", (req, res) => {
 });
 
 // DELETE
-app.delete("/product/:id", (req, res) => {
-  const product_id = req.params.id;
+app.delete("/product/:product", (req, res) => {
+  const product_id = req.params.product;
 
   let products = readDataFromFile();
 
