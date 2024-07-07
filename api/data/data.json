@@ -790,5 +790,37 @@
     "popularity": "75",
     "stockLevel": "100",
     "categoryId": "6"
+  },
+  {
+    "id": "102",
+    "title": "New Product",
+    "price": 29.99,
+    "popularity": 4,
+    "stockLevel": 100,
+    "categoryId": "1"
+  },
+  {
+    "id": "103",
+    "title": "New ddddProduct",
+    "price": 29.99,
+    "popularity": 4,
+    "stockLevel": 100,
+    "categoryId": "1"
+  },
+  {
+    "id": "104",
+    "title": "New ddddPwweweroduct",
+    "price": 29.99,
+    "popularity": 4,
+    "stockLevel": 100,
+    "categoryId": "1"
+  },
+  {
+    "id": "105",
+    "title": "New testttt",
+    "price": 29.99,
+    "popularity": 4,
+    "stockLevel": 100,
+    "categoryId": "1"
   }
 ]

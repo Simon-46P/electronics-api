@@ -76,7 +76,7 @@ app.post("/products", (req, res) => {
       ? (parseInt(products[products.length - 1].id) + 1).toString()
       : "1";
 
-  const newProduct: IProduct = {
+  const newProduct = {
     id: nextId,
     title,
     price,
