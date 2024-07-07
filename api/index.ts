@@ -3,6 +3,7 @@ import cors from "cors";
 import fs from "fs";
 import path from "path";
 import { IProduct } from "./models/IProduct";
+
 const data = require("./data/data.json") as IProduct[];
 const app = express();
 const port = 3000;
@@ -11,7 +12,7 @@ app.use(cors({ origin: "*" }), express.static("public"), express.json());
 
 const dataPath = path.join(__dirname, "data", "data.json");
 
-function readDataFromFile(): any[] {
+function readDataFromFile(): IProduct[] {
   try {
     const data = fs.readFileSync(dataPath, "utf8");
     return JSON.parse(data);
@@ -20,7 +21,8 @@ function readDataFromFile(): any[] {
     return [];
   }
 }
-function writeDataToFile(data: any[]): void {
+
+function writeDataToFile(data: IProduct[]): void {
   fs.writeFile(dataPath, JSON.stringify(data, null, 2), (err) => {
     if (err) {
       console.error("Error writing data file:", err);
@@ -32,12 +34,21 @@ app.get("/", (req, res) => {
   return res.send("First Page!");
 });
 
-//GET (ALL)
+// GET (ALL)
 app.get("/products", (req, res) => {
+  // + SEARCH
+  const title = req.query.title as string | undefined;
+  if (title) {
+    const filteredProducts = data.filter((product) =>
+      product.title.toLowerCase().includes(title.toLowerCase())
+    );
+    return res.json(filteredProducts);
+  }
+
   res.json(data);
 });
 
-//GET (SINGLE)
+// GET (SINGLE)
 app.get("/product/:product", (req, res) => {
   const product_id = req.params.product;
 
@@ -50,7 +61,7 @@ app.get("/product/:product", (req, res) => {
   res.send(JSON.stringify(data[index]));
 });
 
-//POST
+// POST
 app.post("/products", (req, res) => {
   const { title, price, popularity, stockLevel, categoryId } = req.body;
 
@@ -81,7 +92,7 @@ app.post("/products", (req, res) => {
   res.json(newProduct);
 });
 
-//DELETE
+// DELETE
 app.delete("/product/:id", (req, res) => {
   const product_id = req.params.id;
 
@@ -100,7 +111,7 @@ app.delete("/product/:id", (req, res) => {
   res.send(`Product with id ${product_id} deleted successfully`);
 });
 
-//PUT
+// PUT
 app.put("/product/:id", (req, res) => {
   const product_id = req.params.id;
   const { title, price, popularity, stockLevel, categoryId } = req.body;
