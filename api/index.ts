@@ -32,27 +32,25 @@ function writeDataToFile(data: IProduct[]): void {
 
 app.get("/", (req, res) => {
   const apiDescription = `
-  
+    <p><strong>GET /products</strong></p>
+    <p>Description: Retrieve all products. Optionally, you can search for products by title using the query parameter.</p>
+    <p>Example: <code>GET /products?title=someTitle</code></p><br>
 
-    **GET /products**
-    - Description: Retrieve all products. Optionally, you can search for products by title using the query parameter.
-    - Example: \`GET /products?title=someTitle\`
+    <p><strong>GET /product/:product</strong></p>
+    <p>Description: Retrieve a single product by its ID.</p>
+    <p>Example: <code>GET /product/1</code></p><br>
 
-    **GET /product/:product**
-    - Description: Retrieve a single product by its ID.
-    - Example: \`GET /product/1\`
+    <p><strong>POST /products</strong></p>
+    <p>Description: Add a new product. Requires a JSON body with fields: <code>title</code>, <code>price</code>, <code>popularity</code>, <code>stockLevel</code>, and <code>categoryId</code>.</p>
+    <p>Example Request Body: <code>{ "title": "New Product", "price": 100, "popularity": 10, "stockLevel": 50, "categoryId": "1" }</code></p><br>
 
-    **POST /products**
-    - Description: Add a new product. Requires a JSON body with fields: \`title\`, \`price\`, \`popularity\`, \`stockLevel\`, and \`categoryId\`.
-    - Example Request Body: \`{ "title": "New Product", "price": 100, "popularity": 10, "stockLevel": 50, "categoryId": "1" }\`
+    <p><strong>DELETE /product/:product</strong></p>
+    <p>Description: Delete a product by its ID.</p>
+    <p>Example: <code>DELETE /product/1</code></p><br>
 
-    **DELETE /product/:product**
-    - Description: Delete a product by its ID.
-    - Example: \`DELETE /product/1\`
-
-    **PUT /product/:id**
-    - Description: Update an existing product by its ID. Requires a JSON body with the fields you wish to update.
-    - Example Request Body: \`{ "title": "Updated Product", "price": 120, "popularity": 15, "stockLevel": 60, "categoryId": "2" }\`
+    <p><strong>PUT /product/:id</strong></p>
+    <p>Description: Update an existing product by its ID. Requires a JSON body with the fields you wish to update.</p>
+    <p>Example Request Body: <code>{ "title": "Updated Product", "price": 120, "popularity": 15, "stockLevel": 60, "categoryId": "2" }</code></p>
   `;
 
   res.send(apiDescription);
