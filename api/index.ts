@@ -31,7 +31,31 @@ function writeDataToFile(data: IProduct[]): void {
 }
 
 app.get("/", (req, res) => {
-  return res.send("First Page!");
+  const apiDescription = `
+  
+
+    **GET /products**
+    - Description: Retrieve all products. Optionally, you can search for products by title using the query parameter.
+    - Example: \`GET /products?title=someTitle\`
+
+    **GET /product/:product**
+    - Description: Retrieve a single product by its ID.
+    - Example: \`GET /product/1\`
+
+    **POST /products**
+    - Description: Add a new product. Requires a JSON body with fields: \`title\`, \`price\`, \`popularity\`, \`stockLevel\`, and \`categoryId\`.
+    - Example Request Body: \`{ "title": "New Product", "price": 100, "popularity": 10, "stockLevel": 50, "categoryId": "1" }\`
+
+    **DELETE /product/:product**
+    - Description: Delete a product by its ID.
+    - Example: \`DELETE /product/1\`
+
+    **PUT /product/:id**
+    - Description: Update an existing product by its ID. Requires a JSON body with the fields you wish to update.
+    - Example Request Body: \`{ "title": "Updated Product", "price": 120, "popularity": 15, "stockLevel": 60, "categoryId": "2" }\`
+  `;
+
+  res.send(apiDescription);
 });
 
 // GET (ALL)

@@ -814,13 +814,5 @@
     "popularity": 4,
     "stockLevel": 100,
     "categoryId": "1"
-  },
-  {
-    "id": "105",
-    "title": "New testttt",
-    "price": 29.99,
-    "popularity": 4,
-    "stockLevel": 100,
-    "categoryId": "1"
   }
 ]
