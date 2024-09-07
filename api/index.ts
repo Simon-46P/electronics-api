@@ -87,8 +87,18 @@ app.get("/product/:product", (req, res) => {
 app.post("/products", (req, res) => {
   const { title, price, popularity, stockLevel, categoryId } = req.body;
 
-  if (!title || typeof price !== "number") {
-    return res.status(400).send("title and price are required.");
+  if (
+    !title ||
+    !popularity ||
+    !stockLevel ||
+    !categoryId ||
+    typeof price !== "number"
+  ) {
+    return res.status(400).json({
+      success: false,
+      message:
+        "All the fields need to be filled in in order to add a new product",
+    });
   }
 
   let products = readDataFromFile();
@@ -106,12 +116,16 @@ app.post("/products", (req, res) => {
     stockLevel,
     categoryId,
   };
-
+  console.log(newProduct);
   products.push(newProduct);
 
   writeDataToFile(products);
 
-  res.json(newProduct);
+  res.status(201).json({
+    success: true,
+    message: "Product successfully added.",
+    product: newProduct,
+  });
 });
 
 // DELETE
@@ -120,17 +134,23 @@ app.delete("/product/:product", (req, res) => {
 
   let products = readDataFromFile();
 
-  const index = data.findIndex((d) => d.id === product_id);
+  const index = products.findIndex((d) => d.id === product_id);
 
   if (index === -1) {
-    return res.status(404).send(`Product with id ${product_id} not found`);
+    return res.status(404).json({
+      success: false,
+      message: `Product with id ${product_id} not found`,
+    });
   }
 
   products.splice(index, 1);
 
   writeDataToFile(products);
 
-  res.send(`Product with id ${product_id} deleted successfully`);
+  res.json({
+    success: true,
+    message: `Product with id ${product_id} deleted successfully`,
+  });
 });
 
 // PUT
@@ -140,10 +160,13 @@ app.put("/product/:id", (req, res) => {
 
   let products = readDataFromFile();
 
-  const index = data.findIndex((d) => d.id === product_id);
+  const index = products.findIndex((d) => d.id === product_id);
 
   if (index === -1) {
-    return res.status(404).send(`Product with id ${product_id} not found`);
+    return res.status(404).send({
+      success: false,
+      message: `Product with id ${product_id} not found`,
+    });
   }
 
   const updatedProduct = {
@@ -159,7 +182,7 @@ app.put("/product/:id", (req, res) => {
 
   writeDataToFile(products);
 
-  res.json(updatedProduct);
+  res.json({ success: true, product: updatedProduct });
 });
 
 app.listen(port, () => {
